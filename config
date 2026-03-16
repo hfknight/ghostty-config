@@ -1,0 +1,62 @@
+# ===========================
+# Fei's Ghostty Configuration
+# Author: Fei Hu
+# 
+# ===========================
+
+# --- Window and Appearance ---
+# theme = light:Catppuccin Latte,dark:Catppuccin Mocha
+theme = Catppuccin Mocha
+
+window-save-state = always
+window-inherit-working-directory = true
+window-inherit-font-size = true
+background-opacity = 0.88
+background-blur = 20
+
+# background-image = ~/Pictures/wallpaper.png
+# background-image-opacity = 0.3
+# background-image-fit = cover
+
+macos-titlebar-style = tabs
+
+unfocused-split-opacity = 0.9
+
+# --- Typography ---
+font-family = "Maple Mono NF"
+font-size = 14
+font-thicken = true
+font-feature = calt
+font-feature = liga
+window-padding-x = 4
+window-padding-y = 4
+window-padding-balance = true
+
+# --- Quick Terminal ---
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
+quick-terminal-screen = main
+quick-terminal-position = top
+quick-terminal-size = 50%
+quick-terminal-autohide = true
+quick-terminal-animation-duration = 0.15
+
+# --- Shell Integration ---
+# shell-integration-features = cursor,sudo,title,ssh-terminfo,ssh-env
+shell-integration = zsh
+
+# --- Performance ---
+scrollback-limit = 50000000
+
+# --- Cursor ---
+cursor-style = block
+cursor-style-blink = false
+
+# --- Clipboard ---
+copy-on-select = clipboard
+clipboard-trim-trailing-spaces = true
+
+# --- macOS ---
+confirm-close-surface = false
+
+# Option as Alt
+macos-option-as-alt = true

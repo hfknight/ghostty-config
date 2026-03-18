@@ -41,8 +41,8 @@ quick-terminal-autohide = true
 quick-terminal-animation-duration = 0.15
 
 # --- Shell Integration ---
-# shell-integration-features = cursor,sudo,title,ssh-terminfo,ssh-env
 shell-integration = zsh
+shell-integration-features = cursor,sudo,title,ssh-env
 
 # --- Performance ---
 scrollback-limit = 50000000

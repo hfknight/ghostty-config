@@ -60,3 +60,6 @@ confirm-close-surface = false
 
 # Option as Alt
 macos-option-as-alt = true
+
+# Disable notification when exit
+desktop-notifications = false
